@@ -36,7 +36,7 @@ spec:
         command:
         - /bin/bash
         - -c
-        image: mysql:5.7
+        image: mariadb:10.5
         imagePullPolicy: Always
         name: mysql-init
         resources:

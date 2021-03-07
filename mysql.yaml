@@ -25,7 +25,7 @@ spec:
           value: jamfsoftware
         - name: MYSQL_PASSWORD
           value: jamfsw03
-        image: mysql:5.7
+          image: mariadb:10.5
         imagePullPolicy: Always
         name: mysql
         ports:
